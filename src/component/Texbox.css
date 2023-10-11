@@ -1,0 +1,35 @@
+.container{
+     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+   /* background-color: rgba(1, 67, 74, 0.662);*/
+    align-items: center;
+}
+#textarea{
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 5px;
+}
+.buttons{
+    margin: 5px;
+    display: flex;
+}
+.buttons button{
+    margin: 5px 15px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: none;
+    transition: all 0.5s;
+}
+.buttons button:hover{
+    box-shadow: 2px 2px 8px aqua,-2px -2px 8px black;
+    transform: scale(1.03);
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
